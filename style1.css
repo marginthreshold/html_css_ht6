@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+}
+
+.header_bg{
+    background-color: #222; 
+    height: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 1140px;
+
+}
+.main_section_bg{
+    background-color: #F1E4E6;; 
+    height: 764px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main_section{
+    width: 1140px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    
+}
+
+ .main_bdr_txt{
+    width: 420px;
+    height: 93.099px;
+    margin-left: 63.62px;
+    display: flex;
+    align-items: center;
+}
+.text_lft_bd{
+    width: 12px;
+    height: 92px;
+    background-color: #F16D7F;
+}
+.main_text{
+    margin-left: 12px;
+   
+}
+.main_text1{
+    color: #222;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.main_text2{
+    color: #222;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.main_text3{
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.ch_op_bg{
+    height: 535px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.choose_option{
+    width: 1140px;
+    margin-top: 65px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:  2fr;
+    
+}
+
+.choose_menu{
+    position: relative;
+    text-align: center;
+}
+.choose_menu img{ 
+    width: 100%;
+    
+}
+
+.choose_menu.after {
+   background: rgba(33, 22, 22, 0.70);
+   background: lightgray 50% / cover no-repeat;
+   width: 100%;
+   height: 100%;
+}
+
+.choose_menu{ 
+    filter: brightness(60%);
+
+}
+
+.op4{
+    grid-column: 1/4;
+}
+
+.ch_mn_text1{
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.ch_mn_text2{
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.ch_mn{
+    position: absolute;
+    top: 33.3333%;
+    left: 33.3333%;
+}
+
+.ch_mn1{
+    position: absolute;
+    top: 33.3333%;
+    left: 45%;
+}
+.middle_h1{
+    margin-top: 96px;
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.middle_text{
+    margin-top: 6px;
+    text-align: center;
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.shop_items_bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.shop_items{
+    height: 1192px;
+    width: 1140px;
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr) ;
+    gap: 30px;
+}
+    
+.sh_item_frmt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background:#F8F8F8;
+    padding: 24.35px 28.8px 20px 16.46px
+    
+}
+.t1_frmt{
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #000;
+}
+.t2_frmt{
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.t3_frmt{
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.button_bottom{
+    margin-top: 139px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.button_bott{
+    width: 212px;
+    height: 48px;
+    border-color: #FF6A6A;
+    background: #FFF;
+}
+.button_text{
+    color: #F26376;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
