@@ -2,6 +2,12 @@ body {
     margin: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+html {
+    font-family: 'Lato', sans-serif;
+    }
+
 .header_bg{
     background-color: #222; 
     height: 75px;
@@ -75,7 +81,6 @@ body {
 }
 
 .ch_op_bg{
-    height: 535px;
     background: #FFF;
     display: flex;
     justify-content: center;
@@ -159,7 +164,6 @@ body {
 }
 
 .middle_text{
-    margin-top: 6px;
     text-align: center;
     color: #9F9F9F;
     font-family: Lato;
@@ -233,8 +237,6 @@ body {
     height: 48px;
     border-color: #FF6A6A;
     background: #FFF;
-}
-.button_text{
     color: #F26376;
     font-family: Lato;
     font-size: 16px;
@@ -242,4 +244,75 @@ body {
     font-weight: 400;
     line-height: normal;
     
+}
+
+@media screen and (max-width: 1439px) {
+
+    .header_bg{
+        height: 74px;
+    }
+    .header{
+        max-width: 100%;
+        margin-left: 32px;
+        margin-right: 40px;
+    }
+    .main_section_bg{
+        height: 367.567px;
+        max-width: 100%;
+    }
+
+    .main_text1{
+        color: #222;
+        font-family: Lato;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+    .main_text2{
+        color: #222;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .main_text3{
+        color: #F16D7F;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .main_bdr_txt{
+        margin-left: 39px;
+        width: 320px;
+    }
+    .main_section{
+        max-width: 1439px;
+    }
+    .choose_option{
+        max-width: 100%;
+        margin-left: 16px;
+        margin-right: 16px;
+        gap: 19px;
+    }
+    .shop_items{
+        max-width: 100%;
+        margin-top: 48px;
+        margin-left: 16px;
+        margin-right: 16px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr) ;
+        gap: 16px;
+        height: 1950px;
+    }
+    .sh_item{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
 }
