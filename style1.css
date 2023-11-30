@@ -1,12 +1,12 @@
-body {
+body, h1, p{
     margin: 0;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
 html {
-    font-family: 'Lato', sans-serif;
-    }
+font-family: 'Lato', sans-serif;
+}
 
 .header_bg{
     background-color: #222; 
@@ -143,14 +143,18 @@ html {
 
 .ch_mn{
     position: absolute;
-    top: 33.3333%;
-    left: 33.3333%;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
 }
 
 .ch_mn1{
     position: absolute;
-    top: 33.3333%;
-    left: 45%;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
 }
 .middle_h1{
     margin-top: 96px;
@@ -316,3 +320,42 @@ html {
     }
 
 }
+
+@media screen and (max-width: 767px) {
+    .main_picture{
+        display: none;
+    }
+
+    .main_section{
+        width: 1140px;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        
+    }
+
+    .choose_option{
+        max-width: 100%;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 65px;
+        display: flex;
+        gap: 32px;
+        flex-direction: column;
+     
+    }
+
+    .shop_items{
+        max-width: 100%;
+        margin-top: 48px;
+        margin-left: 16px;
+        margin-right: 16px;
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+        height: 3400px;
+    }
+
+
+}
+
